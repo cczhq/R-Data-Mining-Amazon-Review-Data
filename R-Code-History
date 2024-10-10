@@ -1,0 +1,408 @@
+v=5.4:13.4
+print(v)
+revsort.result=sort(v,decreasing=TURE)
+revsort.result=sort(v,decreasing=TRUE)
+print(revsort.result)
+q()
+
+setRepositories()
+utils:::menuInstallPkgs()
+q()
+q()
+
+weight_height <- read.csv("c:\\wutemp\\r_files\\weight-height.csv",header=TRUE) #to read the file into R
+BMI0 <- function(height,weight){ #this function aims to calculate BMI
+height0 <- height*0.0254
+weight0 <- weight*0.453592
+result=weight0/(height0*height0)
+return(result)
+}
+numRows <- nrow(weight_height) #to find the number of rows. you may remember that we used dim() to find the number of rows in last week
+BMI <- vector(mode="numeric", length=numRows) #to initialize BMI
+yourCondition <- vector(mode="numeric", length=numRows) #to initializeyourCondition
+for(i in 1:numRows){
+W1 <- weight_height$Weight[i] #to read weight
+H1 <- weight_height$Height[i] #to read height
+q()
+q()
+q()
+q()
+
+BMI[i] <- BMI0(H1,W1) #
+}
+q()
+pnorm(80, mean=60, sd=24)=0.7967
+pnorm(80, mean=60, sd=24)
+pnorm(20, mean=150, sd=25)
+qnorm(20, mean=150, sd=25)
+pnorm(-1.045, mean=6.3, sd=2.2)
+qnorm(-1.045, mean=6.3, sd=2.2)
+dpois(6,2)
+ppois(2,8)
+ppois(2,8.57)
+q()
+
+dpois(6,2)
+ppois(2,8)
+Normal distrpnorm(??2,mean=??,sd=??)ibution
+pnorm(10,6.3,2.2)-pnorm(5,6.3,2.2)
+1-pnorm(7,6.3,2.2)
+pnorm(4,6.3,2.2)
+qnorm(0.8,6.3,2.2)
+qnorm(0.8,150,25)
+dbinom(2,4,0.41)
+pbinom(3,4,0.41)
+pbinom(2,4,0.41)
+1-pbinom(2,4,0.41)
+dbinom(2,4,0.41)+dbinom(3,4,0.41)+dbinom(4,4,0.41)
+pbinom(2,4,0.59)
+dpoison(4,6.8x2)
+dpoison(4,6.8*2)
+dpoi(4,6.8*2)
+dpoia(4,6.8*2)
+dpois(4,6.8*2)
+dpois(4,6.8)^2
+dpois(4,3)
+dpois(4,3)
+ppois(3,6.8)
+ppois(2,6.8)
+1-pnorm(10,7.5,2.1)
+pnorm(9,7.5,2.1)-pnorm(7,7.5,2.1)
+pnorm(3,7.5,2.1)
+qnorm(0.05,7.5,2.1)
+st1=4/sd(60)
+st1
+st(60)
+sd(60)
+st1=4/sd(c(60))
+st1
+sd(60)
+sqrt(60)
+sigma0=4/sqrt(60)
+sigma0
+x_bar <- 15
+n <- 60
+pnorm(16,mean=15,sd=0.5164)- pnorm(14,mean=15,sd=0.5164)=
+0.947
+P=pnorm(16,mean=15,sd=0.5164)- pnorm(14,mean=15,sd=0.5164)=
+=pnorm(16,mean=15,sd=0.5164)- pnorm(14,mean=15,sd=0.5164)
+=pnorm(16,mean=15,sd=0.5164)- pnorm(14,mean=15,sd=0.5164)
+pnorm(16,mean=15,sd=0.5164)- pnorm(14,mean=15,sd=0.5164)
+pnorm(15.75,mean=15,sd=0.5164)-
+pnorm(14.25,mean=15,sd=0.5164)
+sigma0 = 8.5/sqrt(100)
+sigma0
+n <- 100
+error <- qnorm(0.975)*sigma0/sqrt(n)
+x_bar <- 49
+left <- x_bar-error
+right <- x_bar+error
+left
+right
+mean(c(2, 3, 4, 4, 1, 3, 6, 2, 3, 5, 4, 3,
+3, 1, 3, 4, 5, 3, 2, 4, 3, 2, 2, 3, 3,
+5, 5, 3, 4, 2, 3, 5, 3, 4, 3,))
+mean(c(2, 3, 4, 4, 1, 3, 6, 2, 3, 5, 4, 3,
+3, 1, 3, 4, 5, 3, 2, 4, 3, 2, 2, 3, 3,
+5, 5, 3, 4, 2, 3, 5, 3, 4, 3))
+x_bar1<-mean(c(2, 3, 4, 4, 1, 3, 6, 2, 3, 5, 4, 3,
+3, 1, 3, 4, 5, 3, 2, 4, 3, 2, 2, 3, 3,
+5, 5, 3, 4, 2, 3, 5, 3, 4, 3))
+x_bar1
+std1<-mean(c(2, 3, 4, 4, 1, 3, 6, 2, 3, 5, 4, 3,
+3, 1, 3, 4, 5, 3, 2, 4, 3, 2, 2, 3, 3,
+5, 5, 3, 4, 2, 3, 5, 3, 4, 3))
+std1
+std1<-sd(c(2, 3, 4, 4, 1, 3, 6, 2, 3, 5, 4, 3,
+3, 1, 3, 4, 5, 3, 2, 4, 3, 2, 2, 3, 3,
+5, 5, 3, 4, 2, 3, 5, 3, 4, 3))
+std1
+x_bar1
+n1<-count(c(2, 3, 4, 4, 1, 3, 6, 2, 3, 5, 4, 3,
+3, 1, 3, 4, 5, 3, 2, 4, 3, 2, 2, 3, 3,
+5, 5, 3, 4, 2, 3, 5, 3, 4, 3))
+n1 = 36
+error <- qt(0.975,df=n-1)*s/sqrt(n)
+error <- qt(0.975,df=n-1)*std1/sqrt(n)
+error
+left1<-error+x_bar1
+right1<-error+x_bar1
+left1<-error-x_bar1
+left1
+right1
+left1<-x_bar1-error
+left1
+right1<-x_bar1+error
+right1
+error1 <- qt(0.99,df=n-1)*std1/sqrt(n)
+left1<-x_bar1-error
+right1<-x_bar1+error
+left1
+right1
+sigma2<-15
+n2 =2
+error = 2
+z <-qnorm(0.975)
+n2<-(sigma2*z)^2/(error^2)
+n2
+pnorm(2.5824)
+1-porm(2.5824��
+1-porm(2.5824)
+1-pnorm(2.5824)
+q()
+qnorm(0.95)
+qnorm(0.05)
+sigma<-5
+n<-49
+error<-qnorm(0.975)*sigma/sqrt(n)
+error
+x_bar<-24.80
+left<-x_bar-error
+right<-x_bar+error
+left
+right
+dpois(0,2)
+ppois(1,2)
+dpois(1,2)
+dpois(1,1)
+ppois(1,1)
+1-ppois(1,1)
+sd(5,5,5,5,5)
+sd(c(5,5,5,5,5))
+sd(c(5,5,5,5,6))
+sd(c(5,5,5,5,3))
+sd(c(5,5,5,5,0))
+error
+simga<-4500
+x_bar<-31100
+n<-36
+error<-qnorm(0.975)*sigma/sqrt(n)
+error
+error<-qnorm(0.05)*sigma/sqrt(n)
+error
+q()
+ppois(1,1)
+1-ppois(1,1)
+q()
+q()
+Q()
+q()
+q()
+
+
+
+library(sparklyr)
+install.packages('sparklyr')
+spark_available_versions()
+install.packages("Rtools")
+spark_available_versions()
+
+# Load the example data downloaded from:
+# http://deepyeti.ucsd.edu/jianmo/amazon/categoryFilesSmall/Software_5.json.gz
+softwareDF <- stream_in('Software_5.json')
+library(ndjson)
+
+softwareDF <- stream_in('Software_5.json')
+install.packages('sparklyr')
+spark_available_versions()
+install.packages('sparklyr')
+library("Rtools")
+install.packages("Rtools")
+library(ndjson)
+library(sparklyr)
+install.packages('sparklyr')
+library(sparklyr
+
+spark_available_versions()
+spark_install(version = '3.0')
+spark_installed_versions()
+sc <- spark_connect(master = "local", version = "3.0")
+sc <- spark_connect(master = "local", version = "3.0")
+sc <- spark_connect(master = "local", version = "3.0")
+sc <- spark_connect(master = "local", version = "3.0")
+library(sparkly)
+
+sc <- spark_connect(master = "local", version = "3.0")
+system('java -version')
+sc <- spark_connect(master = "local", version = "3.0")
+sc <- spark_connect(master = "local", version = "3.0")
+library(sparkly)
+
+newSent %>%
+ggplot(aes(ave_sentiment)) +
+geom_histogram(binwidth = 0.1,fill='steelblue') +
+labs(y = 'number of reviews', x = 'average sentiment') +
+theme_classic()
+library(ggplot2)
+
+newSent %>%
+ggplot(aes(ave_sentiment)) +
+geom_histogram(binwidth = 0.1,fill='steelblue') +
+labs(y = 'number of reviews', x = 'average sentiment') +
+theme_classic()
+
+#dataframe
+myDF <- data.frame(
+food = c("apple","banana","candy","donut")
+weight = c(500,400,10,50)
+calorie = (20,30,100,200)
+)
+View(softwareDF)
+#dataframe
+myDF <- data.frame(
+food = c("apple","banana","candy","donut")
+weight = c(500,400,10,50),
+calorie = (20,30,100,200)
+)
+myDF <- data.frame(
+food = c('apple','banana','candy','donut')
+weight = c(500,400,10,50),
+calorie = c(20,30,100,200)
+)
+myDF <- data.frame(
+food = c('apple','banana','candy','donut'),
+weight = c(500,400,10,50),
+calorie = c(20,30,100,200)
+)
+View(myDF)
+
+myDF[1,'weight']
+write.csv (myDF, file = "myDF.csv", row.names = FALSE)
+View(myDF)
+
+library(ndjson)
+magazineDF <- stream_in ("Magazine_Subscriptions_5.json")
+library(dplyr)
+library(tidytext)
+myCorpus <- tibble(line=1:nrow(magazineDF), text = magazineDF$reviewText)
+WordFreq <- myCorpus %>%
+unrest_tokens(word, text) %>%
+anti-join(stop_words) %>%
+count(word, sort = TRUE)
+
+library(ndjson)
+magazineDF <- stream_in ("Magazine_Subscriptions_5.json")
+library(dplyr)
+library(tidytext)
+myCorpus <- tibble(line=1:nrow(magazineDF), text = magazineDF$reviewText)
+WordFreq <- myCorpus %>%
+unrest_tokens(word, text) %>%
+anti_join(stop_words) %>%
+count(word, sort = TRUE)
+
+library(ndjson)
+magazineDF <- stream_in ("Magazine_Subscriptions_5.json")
+library(dplyr)
+library(tidytext)
+myCorpus <- tibble(line=1:nrow(magazineDF), text = magazineDF$reviewText)
+
+WordFreq <- myCorpus %>%
+unnest_tokens(word, text) %>%
+anti_join(stop_words) %>%
+count(word, sort = TRUE)
+View(magazineDF)
+
+sparklyr
+library(ndjson)
+magazineDF <- stream_in ("Magazine_Subscriptions_5.json")
+library(dplyr)
+library(tidytext)
+myCorpus <- tibble(line=1:nrow(magazineDF), text = magazineDF$reviewText)
+WordFreq <- myCorpus %>%
+unnest_tokens(word, text) %>%
+anti_join(stop_words) %>%
+count(word, sort = TRUE)
+WordFreq
+View(WordFreq)
+WordFreq <- myCorpus %>%
+unnest_tokens(word, text) %>%
+anti_join(stop_words) %>%
+count(word, sort = TRUE)
+setwd('../Desktop/******/')
+getwd()
+shiny::runGadget(sparklyr::connection_spark_shinyapp(), viewer = .rs.embeddedViewer)
+
+library(sparklyr)
+library(dplyr)
+sc <- spark_connect(master = "local")
+softwareSpark <- copy_to(sc,softwareDF)
+shiny::runGadget(sparklyr::connection_spark_shinyapp(), viewer = .rs.embeddedViewer)
+library(sparklyr)
+library(dplyr)
+sc <- spark_connect(master = "local")
+library(sparklyr)
+library("Rtools")
+install.packages("Rtools")
+spark_available_versions()
+spark_install(version = '3.0')
+spark_installed_versions()
+sc <- spark_connect(master = "local", version = "3.0")
+options(sparklyr.log.console = TRUE)
+sc <- spark_connect(master = "local", version = "3.0")
+spark_install_dir()
+Sys.setenv(JAVA_HOME="/usr/lib/jdk/jdk1.8.0_121")
+library(sparklyr)
+sc <- spark_connect(master = "local")
+Sys.setenv(JAVA_HOME="/usr/lib/jdk/jdk1.8.0_121")
+Sys.setenv(JAVA_HOME="/usr/lib/jdk/jdk1.8.0_121")
+sc <- spark_connect(master = "local")
+spark_available_versions()
+spark_installed_versions()
+softwareDF <- stream_in('Sports_and_Outdoors.json')
+sc <- spark_connect(master = "local", version = "3.0")
+sc <- spark_connect(master = "local", version = "3.0")
+Sys.setenv(JAVA_HOME="/Users/*****'s Laptop/Downloads/jdk1.8.0_121")
+sc <- spark_connect(master = "local", version = "3.0")
+Sys.setenv(JAVA_HOME="/Users/*****'s Laptop/Downloads/jdk-16.0.1")
+sc <- spark_connect(master = "local", version = "3.0")
+library(sparklyr)
+remove.packages("sparklyr", lib="~/R/win-library/4.0")
+install.packages('sparklyr')
+library(sparklyr)
+spark_available_versions()
+library(sparklyr)
+remove.packages("askpass", lib="~/R/win-library/4.0")
+remove.packages("assertthat", lib="~/R/win-library/4.0")
+remove.packages("translations", lib="C:/Program Files/R/R-4.0.4/library")
+remove.packages("cachem", lib="~/R/win-library/4.0")
+remove.packages("backports", lib="~/R/win-library/4.0")
+shiny::runGadget(sparklyr::connection_spark_shinyapp(), viewer = .rs.embeddedViewer)
+shiny::runGadget(sparklyr::connection_spark_shinyapp(), viewer = .rs.embeddedViewer)
+
+library(sparklyr)
+sc <- spark_connect(master = "local")
+options(sparklyr.log.console = TRUE)
+sc <- spark_connect(master = "local", version = "3.0")
+library(devtools)
+library(sentimentr)
+appliancesDF <- stream_in('Appliances.json')
+setwd('../Desktop/****Project/')
+getwd()
+
+library(ndjson)
+appliancesDF <- stream_in('Appliances.json')
+appliancesDF$reviewText[1] %>%
+extract_sentiment_terms()
+appliancesDF$reviewText[1] %>%
+sentiment_by()
+library(devtools)
+library(sentimentr)
+appliancesDF$reviewText[1] %>%
+extract_sentiment_terms()
+library(dplyr)
+library(ggplot2)
+install_github("trinker/sentimentr")
+library(wordcloud2)
+library(webshot)
+library("htmlwidgets")
+softwareDF$reviewText[1] %>%
+sentiment_by()
+library(sentimentr)
+appliancesDF$reviewText[1] %>%
+extract_sentiment_terms()
+'My life has become terrible since I met you and lost money. But I still have got a little hope left in me' %>%
+sentiment_by(by = NULL) %>%
+highlight()
+newSent <- appliancesDF$reviewText %>%
+get_sentences() %>%
+sentiment_by()
